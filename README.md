@@ -1,4 +1,4 @@
-![Project](/images/readme-image.png)
+![Project](https://i.ibb.co/BgRWzS1/Logo.png)
 
 # Pixel Perfect React.js Development Project (EigerX)
 
