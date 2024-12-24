@@ -1,3 +1,7 @@
 .items-center-between {
   @apply flex items-center justify-between;
 }
+
+.hover-state {
+  @apply hover:bg-primary/20 active:bg-primary/30;
+}

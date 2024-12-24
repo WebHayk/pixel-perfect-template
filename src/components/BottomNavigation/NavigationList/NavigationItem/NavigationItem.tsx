@@ -21,7 +21,7 @@ export const NavigationItem: FC<NavigationItemModel> = ({item}) => {
     },[path, pathname]);
 
     return (
-        <li className={"hover:bg-primary/20 active:bg-primary/30 rounded-lg duration-300 cursor-pointer py-[14px] flex flex-col justify-center items-center gap-2"}>
+        <li className={"hover-state rounded-lg duration-300 cursor-pointer py-[14px] flex flex-col justify-center items-center gap-2"}>
             <item.icon/>
             <p className={cs({
                 ["text-primary-body"]: !isActivePath,
