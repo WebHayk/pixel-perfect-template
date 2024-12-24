@@ -1,3 +1,5 @@
+![Project](/images/readme-image.png)
+
 # Pixel Perfect React.js Development Project (EigerX)
 
 ## 🚀 About This Project
