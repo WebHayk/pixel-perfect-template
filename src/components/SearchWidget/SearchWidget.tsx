@@ -17,13 +17,17 @@ export const SearchWidget: FC<SearchWidgetModel> = (
 
     let [value, setValue] = useState<string>("");
 
+    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setValue(event.target.value);
+    };
+
     return (
         <div className={cs(className, "w-full border border-dark-border shadow-paper-shadow rounded-[10px] bg-dark p-2 flex flex-col gap-2")}>
             <TextField
                 placeholderColor={"placeholder-primary-body"}
                 append={<SearchIcon />}
                 placeholder={"Search for help"}
-                onChange={(event) => setValue(event.target.value)}
+                onChange={handleChange}
                 value={value}
             />
             <div className={"grid grid-cols-1"}>
