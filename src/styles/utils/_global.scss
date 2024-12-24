@@ -1,0 +1,25 @@
+@import "reset";
+@import "fonts";
+@import "apply";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+  line-height: 21px;
+  font-family: "Inter", sans-serif;
+}
+
+#root {
+  height: 100%;
+}
